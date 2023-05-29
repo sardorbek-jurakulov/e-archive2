@@ -1,4 +1,4 @@
-const app = require(express)();
+const app = require('express')();
 
 app.get('/', (req, res, next) => {
   res.json({
@@ -7,6 +7,6 @@ app.get('/', (req, res, next) => {
   });
 });
 
-app.listen(3000, () => {
-  console.log('Server is running on 3000 port');
+app.listen(3001, () => {
+  console.log('Server is running on 3001 port');
 });
